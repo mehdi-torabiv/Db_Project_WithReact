@@ -1,0 +1,22 @@
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.carousel-control-prev {
+    border-radius: 0 0 0rem 1rem;
+}
+
+.carousel-control-next {
+    border-radius: 0 0 1rem 0rem;
+}
+
+.carousel-inner {
+    border-radius: 0 0 1rem 1rem;
+}

@@ -8,12 +8,18 @@ body {
   background-color: rgba(48, 49, 62, .98);
 }
 
+dl,
+ol,
+ul {
+  margin-bottom: 0;
+}
+
 .myNav .navbarBrand a {
   display: flex;
   color: white;
   font-size: 24px;
   font-family: "Baloo 2",
-cursive;
+    cursive;
   margin-right: 0.8rem;
 }
 

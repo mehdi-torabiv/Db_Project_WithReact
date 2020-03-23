@@ -29,7 +29,7 @@ const HeaderContactIcon = (props) => {
                     </div>
                 </Col>
                 <Col md={3} className="mr-auto">
-                    <div className="contactUs py-2">
+                    <div className="contactUs py-2 mx-4">
                         <span className="pr-2">
                             <a href="#">
                                 <i className="fa fa-instagram"></i>
