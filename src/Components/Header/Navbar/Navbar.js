@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import "./Navbar.css";
 import SearchBar from "./SearchBar/SearchBar";
+
 class Navbar extends Component {
     render() {
         return (
-            <nav>
+            <nav className="myNav">
                 <ul>
                     <div className="navbarBrand mr-4">
                         <a href="#" className="pt-2">CinemaTicket</a>

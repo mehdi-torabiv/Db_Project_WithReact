@@ -1,14 +1,16 @@
-span {
+div>.span {
   margin: 0 0.3rem 0 0;
   background-color: white;
   border-radius: 0 1rem 1rem 0;
   cursor: pointer;
 }
-span i {
+
+div>.span i {
   color: black;
   padding: 0.8rem;
 }
-input {
+
+div input {
   margin-right: 0 !important;
   padding: 0.4rem;
   border-radius: 1rem 0 0 1rem;

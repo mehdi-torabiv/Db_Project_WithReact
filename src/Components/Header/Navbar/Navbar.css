@@ -1,46 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+
 body {
   direction: rtl;
 }
-nav {
-  background-color: #323232;
+
+.myNav {
+  background-color: rgba(48, 49, 62, .98);
 }
-.navbarBrand a {
+
+.myNav .navbarBrand a {
   display: flex;
   color: white;
   font-size: 24px;
-  font-family: "Baloo 2", cursive;
+  font-family: "Baloo 2",
+cursive;
   margin-right: 0.8rem;
 }
-ul {
+
+.myNav ul {
   display: flex;
   width: 80%;
 }
-li {
+
+.myNav li {
   list-style: none;
   margin-right: 0.5rem;
   padding: 0.8rem 2rem;
   cursor: pointer;
+  border-radius: .8rem .8rem 0 0;
+  border-bottom: 4px solid transparent;
+  border-radius: 2px 2px 2px 2px;
 }
-a {
+
+.myNav a {
   color: white;
   text-decoration: none;
   font-size: 18px;
   cursor: pointer;
 }
-li:hover {
-  background-color: #204051;
+
+.myNav li:hover {
+  border-bottom: 4px solid #10b68c;
+  border-radius: 2px 2px 2px 2px;
+  transition: .5s;
 }
-a:hover {
+
+.myNav a:hover {
   text-decoration: none;
   color: white;
 }
 
-.sign {
+.myNav .sign {
   color: white;
   position: absolute;
   left: 1rem;
 }
-.sign a {
+
+.myNav .sign a {
   color: white;
 }

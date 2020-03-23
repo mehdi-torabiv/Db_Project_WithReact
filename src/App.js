@@ -5,9 +5,9 @@ import Header from './Components/Header/Header';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <React.Fragment>
         <Header />
-      </div>
+      </React.Fragment>
     );
   }
 }
