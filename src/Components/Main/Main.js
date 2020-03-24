@@ -3,7 +3,7 @@ import SectionOne from './SectionOne/SectionOne';
 class Main extends Component {
     render() {
         return (
-            <div>
+            <div className="">
                 <SectionOne />
             </div>
         );

@@ -9,7 +9,7 @@ import card4 from "../../../assets/c4.jpg";
 const SectionOne = (props) => {
     return (
         <Container fluid>
-            <Row className="mt-4 mr-4">
+            <Row className="myMain mt-4 py-5">
                 <Col md={{ span: 9, offset: 1 }}>
                     <div className="d-flex justify-content-between">
                         <h5>

@@ -1,0 +1,22 @@
+.footerS {
+    box-shadow: 2px 2px 0 0 black;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.089);
+}
+
+.footerBtn {
+    background: rgb(92, 171, 148);
+    background: linear-gradient(137deg, rgba(92, 171, 148, 1) 0%, rgba(11, 222, 159, 1) 35%, rgba(0, 255, 180, 1) 100%);
+    border: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 5rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footerBtn:hover {
+    transition: 0.4s ease;
+    box-shadow: 0px 1px 2px 1px rgba(0,
+            0,
+            0,
+            0.274);
+}
