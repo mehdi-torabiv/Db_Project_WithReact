@@ -1,0 +1,13 @@
+.ButtonHome {
+    background: rgb(103, 27, 49);
+    background: linear-gradient(163deg, rgba(103, 27, 49, 1) 0%, rgba(121, 9, 41, 1) 35%, rgba(170, 7, 54, 1) 100%);
+    border: 0px;
+    border-radius: .3rem;
+}
+
+.ButtonHome:hover {
+    cursor: pointer;
+    background: rgb(219, 11, 11);
+    background: linear-gradient(163deg, rgba(219, 11, 11, 1) 0%, rgba(255, 0, 19, 1) 35%, rgba(244, 0, 70, 1) 100%);
+    transition: ease 10s;
+}
