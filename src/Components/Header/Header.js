@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar/Navbar';
 import HeaderContactIcon from './HeaderContactIcon/HeaderContactIcon';
-import Carousels from "../Main/Carousels/Carousels";
+import "../Header/Header.css";
 class Header extends Component {
     render() {
         return (
             <header className="">
-                <HeaderContactIcon />
-                <Navbar />
-                <Carousels />
+                <div className="mb-5 myNavCl">
+                    <HeaderContactIcon />
+                    <Navbar />
+
+                </div>
             </header>
         );
     }

@@ -46,7 +46,6 @@ const Footer = () => {
                         <Button className="ml-2 footerBtn" >سینما زندگی</Button>
                     </div>
                 </Col>
-
             </Row>
         </Container>
     );

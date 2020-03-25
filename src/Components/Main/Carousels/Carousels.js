@@ -10,9 +10,9 @@ const Carousels = () => {
         setIndex(selectedIndex);
     };
     return (
-        <Container>
+        <Container >
             <Row >
-                <Carousel activeIndex={index} onSelect={handleSelect}>
+                <Carousel className="CarPos" activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
